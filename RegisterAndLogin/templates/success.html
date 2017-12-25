@@ -1,0 +1,13 @@
+{% extends 'bootstrap/base.html' %}
+{% import 'bootstrap/wtf.html' as wft %}
+
+{% block title %}
+提示
+{% endblock %}
+
+{% block content %}
+    <form action="/">
+    {{ context }}
+    <input type="submit" value="确认">
+    </form>
+{% endblock %}
